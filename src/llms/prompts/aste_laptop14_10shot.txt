@@ -1,0 +1,37 @@
+According to the following sentiment elements definition: 
+
+- The 'aspect term' refers to a specific feature, attribute, or aspect of a product or service that a user may express an opinion about.
+- The 'opinion term' refers to the sentiment or attitude expressed by a user towards a particular aspect or feature of a product or service.
+- The 'sentiment polarity' refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities inlcudes: 'positive', 'negative' and 'neutral'.
+
+Recognize all sentiment elements with their corresponding aspect terms, opinion terms and sentiment polarity in the following text with the format of [('aspect term', 'opinion term', 'sentiment polarity'), ...]: 
+
+Text: my computer froze on several occasion , had buttons that randomely would fall off and even had moments when the computer would refuse to turn on at all .
+Sentiment Elements: [('buttons', 'fall off', 'bad')]
+
+Text: everything from the design to the os is simple and to the point .
+Sentiment Elements: [('design', 'simple', 'great'), ('os', 'simple', 'great'), ('design', 'to the point', 'great'), ('os', 'to the point', 'great')]
+
+Text: treat yourself to a more expensive , long-lasting laptop of quality like a sony , apple , or toshiba .
+Sentiment Elements: [('quality', 'long-lasting', 'great')]
+
+Text: however the frozen screens kept happening .
+Sentiment Elements: [('screens', 'frozen', 'bad')]
+
+Text: everything is so easy to use , mac software is just so much simpler than microsoft software .
+Sentiment Elements: [('use', 'easy', 'great'), ('mac software', 'easy', 'great'), ('microsoft software', 'simpler than', 'bad')]
+
+Text: great os , fabulous improvements to the existing line bumping up the processor speed and adding the thunderbolt port .
+Sentiment Elements: [('os', 'great', 'great'), ('os', 'fabulous', 'great'), ('processor speed', 'fabulous', 'great'), ('thunderbolt port', 'adding', 'great')]
+
+Text: now when i order i did not go full scale for the webcam or full keyboard i wanted something for basics of being easy to carry when i use crutchs or wheelchair and with a backpack laptop bag .
+Sentiment Elements: [('carry', 'easy', 'great')]
+
+Text: also the battery is completely shot .
+Sentiment Elements: [('battery', 'completely shot', 'bad')]
+
+Text: the screen is bright and vivid and the keyboard is very easy to use , very important for use quick typers .
+Sentiment Elements: [('screen', 'bright', 'great'), ('screen', 'vivid', 'great'), ('keyboard', 'easy to use', 'great')]
+
+Text: it is so simple to use , i use it more than my desktop .
+Sentiment Elements: [('use', 'simple', 'great')]

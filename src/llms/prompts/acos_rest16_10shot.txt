@@ -1,0 +1,38 @@
+According to the following sentiment elements definition: 
+
+- The 'aspect term' refers to a specific feature, attribute, or aspect of a product or service that a user may express an opinion about, the aspect term might be 'null' for implicit aspect.
+- The 'opinion term' refers to the sentiment or attitude expressed by a user towards a particular aspect or feature of a product or service, the aspect term might be 'null' for implicit opinion.
+- The 'aspect category' refers to the category that aspect belongs to, and the available catgories includes: 'location general', 'food prices', 'food quality', 'food general', 'ambience general', 'service general', 'restaurant prices', 'drinks prices', 'restaurant miscellaneous', 'drinks quality', 'drinks style_options', 'restaurant general' and 'food style_options'.
+- The 'sentiment polarity' refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities inlcudes: 'positive', 'negative' and 'neutral'.
+
+Recognize all sentiment elements with their corresponding aspect terms, aspect categories, opinion terms and sentiment polarity in the following text with the format of [('aspect term', 'opinion term', 'aspect category', 'sentiment polarity'), ...]: 
+
+Text: but that is highly forgivable .
+Sentiment Elements: [('null', 'forgivable', 'restaurant miscellaneous', 'great')]
+
+Text: i have to say that i am pleasantly suprised and i will most likely stop in again if i am in the neighborhood .
+Sentiment Elements: [('null', 'pleasantly suprised', 'restaurant general', 'great')]
+
+Text: the signs , the specials menus , food , and even all the waitstaff are all totally japanese .
+Sentiment Elements: [('signs', 'japanese', 'restaurant miscellaneous', 'great'), ('specials menus', 'japanese', 'food style_options', 'great'), ('food', 'japanese', 'food quality', 'great'), ('waitstaff', 'japanese', 'service general', 'great')]
+
+Text: i like cafe noir dont get me wrong , it is jsut that the people who work there are evil and incompetent ! !
+Sentiment Elements: [('cafe noir', 'like', 'restaurant general', 'great'), ('people', 'evil', 'service general', 'bad'), ('people', 'incompetent', 'service general', 'bad')]
+
+Text: the waiter was attentive , the food was delicious and the views of the city were great .
+Sentiment Elements: [('waiter', 'attentive', 'service general', 'great'), ('food', 'delicious', 'food quality', 'great'), ('views of the city', 'great', 'location general', 'great')]
+
+Text: i love it .
+Sentiment Elements: [('null', 'love', 'restaurant general', 'great')]
+
+Text: a cool bar with great food , and tons of excellent beer .
+Sentiment Elements: [('bar', 'cool', 'ambience general', 'great'), ('food', 'great', 'food quality', 'great'), ('beer', 'excellent', 'drinks quality', 'great'), ('beer', 'excellent', 'drinks style_options', 'great')]
+
+Text: guacamole + shrimp appetizer was really great , we both had the filet , very good , did n ' t much like the frites that came with , but the filet was so good , neither of us cared .
+Sentiment Elements: [('guacamole + shrimp appetizer', 'great', 'food quality', 'great'), ('filet', 'good', 'food quality', 'great'), ('frites', 'null', 'food quality', 'bad')]
+
+Text: i have never before eaten 40 pieces of relatively good nigiri .
+Sentiment Elements: [('nigiri', 'good', 'food quality', 'ok')]
+
+Text: the service was attentive , yet discreet .
+Sentiment Elements: [('service', 'attentive', 'service general', 'great'), ('service', 'discreet', 'service general', 'great')]

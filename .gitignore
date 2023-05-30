@@ -1,3 +1,12 @@
+outputs
+logs/
+results/
+# data/unified*
+src/llms/guide
+.vscode/
+*.out
+.DS_store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

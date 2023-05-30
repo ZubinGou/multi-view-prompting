@@ -1,0 +1,38 @@
+According to the following sentiment elements definition: 
+
+- The 'aspect term' refers to a specific feature, attribute, or aspect of a product or service that a user may express an opinion about, the aspect term might be 'null' for implicit aspect.
+- The 'opinion term' refers to the sentiment or attitude expressed by a user towards a particular aspect or feature of a product or service, the aspect term might be 'null' for implicit opinion.
+- The 'aspect category' refers to the category that aspect belongs to, and the available catgories includes: 'location general', 'food prices', 'food quality', 'food general', 'ambience general', 'service general', 'restaurant prices', 'drinks prices', 'restaurant miscellaneous', 'drinks quality', 'drinks style_options', 'restaurant general' and 'food style_options'.
+- The 'sentiment polarity' refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities inlcudes: 'positive', 'negative' and 'neutral'.
+
+Recognize all sentiment elements with their corresponding aspect terms, aspect categories, opinion terms and sentiment polarity in the following text with the format of [('aspect term', 'opinion term', 'aspect category', 'sentiment polarity'), ...]: 
+
+Text: never again !
+Sentiment Elements: [('null', 'never', 'restaurant general', 'bad')]
+
+Text: the food was mediocre at best but it was the horrible service that made me vow never to go back .
+Sentiment Elements: [('food', 'mediocre', 'food quality', 'bad'), ('service', 'horrible', 'service general', 'bad')]
+
+Text: we had the lobster sandwich and it was fantastic .
+Sentiment Elements: [('lobster sandwich', 'fantastic', 'food quality', 'great')]
+
+Text: they have it all -- great price , food , and service .
+Sentiment Elements: [('null', 'great', 'restaurant prices', 'great'), ('food', 'great', 'food quality', 'great'), ('service', 'great', 'service general', 'great')]
+
+Text: they even scoop it out nice ( for those on a diet ) not too much not to little .
+Sentiment Elements: [('null', 'nice', 'food style_options', 'great')]
+
+Text: also it 's great to have dinner in a very romantic and comfortable place , the service it 's just perfect ... they 're so frendly that we never want to live the place !
+Sentiment Elements: [('place', 'romantic', 'ambience general', 'great'), ('place', 'comfortable', 'ambience general', 'great'), ('service', 'perfect', 'service general', 'great')]
+
+Text: my friend from milan and myself were pleasantly surprised when we arrived and everyone spoke italian .
+Sentiment Elements: [('null', 'pleasantly surprised', 'restaurant miscellaneous', 'great')]
+
+Text: i had their eggs benedict for brunch , which were the worst in my entire life , i tried removing the hollondaise sauce completely that was how failed it was .
+Sentiment Elements: [('eggs benedict', 'worst', 'food quality', 'bad')]
+
+Text: the food is authentic italian - delicious !
+Sentiment Elements: [('food', 'authentic italian', 'food quality', 'great'), ('food', 'delicious', 'food quality', 'great')]
+
+Text: a little pricey but it really hits the spot on a sunday morning !
+Sentiment Elements: [('null', 'pricey', 'restaurant prices', 'bad'), ('null', 'hits the spot', 'restaurant general', 'great')]

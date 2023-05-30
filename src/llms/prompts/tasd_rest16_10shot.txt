@@ -1,0 +1,37 @@
+According to the following sentiment elements definition: 
+
+- The 'aspect term' refers to a specific feature, attribute, or aspect of a product or service that a user may express an opinion about, the aspect term might be 'null' for implicit aspect.
+- The 'aspect category' refers to the category that aspect belongs to, and the available catgories includes: 'location general', 'food prices', 'food quality', 'food general', 'ambience general', 'service general', 'restaurant prices', 'drinks prices', 'restaurant miscellaneous', 'drinks quality', 'drinks style_options', 'restaurant general' and 'food style_options'.
+- The 'sentiment polarity' refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities inlcudes: 'positive', 'negative' and 'neutral'.
+
+Recognize all sentiment elements with their corresponding aspect terms, aspect categories, and sentiment polarity in the following text with the format of [('aspect term', 'aspect category', 'sentiment polarity'), ...]: 
+
+Text: be sure not to get anything other than bagels ! . .
+Sentiment Elements: [('bagels', 'food quality', 'great'), ('null', 'food quality', 'bad')]
+
+Text: the service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .
+Sentiment Elements: [('service', 'service general', 'bad')]
+
+Text: have eaten at ginger house several times , and it 's always good .
+Sentiment Elements: [('ginger house', 'restaurant general', 'great')]
+
+Text: the pizza is overpriced and soggy .
+Sentiment Elements: [('pizza', 'food quality', 'bad'), ('pizza', 'food prices', 'bad')]
+
+Text: they wouldnt even let me finish my glass of wine before offering another .
+Sentiment Elements: [('null', 'service general', 'bad')]
+
+Text: great indian food and the service is incredible .
+Sentiment Elements: [('indian food', 'food quality', 'great'), ('service', 'service general', 'great')]
+
+Text: the best pad thai i 've ever had .
+Sentiment Elements: [('pad thai', 'food quality', 'great')]
+
+Text: you can 't go wrong with this place .
+Sentiment Elements: [('place', 'restaurant general', 'great')]
+
+Text: so , i switch with my boyfriend again to see if maybe i could stomach the meat and spinach again , but the spinach was so undercooked that i just could not bite through it .
+Sentiment Elements: [('spinach', 'food quality', 'bad')]
+
+Text: the design of the space is good .
+Sentiment Elements: [('space', 'ambience general', 'great')]
