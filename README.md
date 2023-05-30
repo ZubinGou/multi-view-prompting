@@ -127,7 +127,7 @@ python llms/eval.py
 
 ## ☕️ Citation
 
-If you find this repository helpful, please consider cite our paper:
+If you find this repository helpful, please consider citing our paper:
 
 ```
 @inproceedings{gou-etal-2023-mvp,
