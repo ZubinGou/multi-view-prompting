@@ -13,10 +13,10 @@ Multi-view Prompting (MvP)
 
 
 <p align="center">
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#trained-model">Trained Model</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-trained-model">Trained Model</a> •
   <a href="https://arxiv.org/abs/2305.12627">Paper</a> •
-  <a href="#citation">Citation</a>
+  <a href="#%EF%B8%8F-citation">Citation</a>
 </p>
 
 Repo for ACL 2023 paper [MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627).
