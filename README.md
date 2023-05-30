@@ -9,8 +9,12 @@ Multi-view Prompting (MvP)
 ![](https://img.shields.io/badge/Model-Released-blue)
 ![](https://img.shields.io/github/license/ZubinGou/multi-view-prompting)
 
-</div>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-acos)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-acos?p=mvp-multi-view-prompting-improves-aspect)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-asqp)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-asqp?p=mvp-multi-view-prompting-improves-aspect)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-aste)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-aste?p=mvp-multi-view-prompting-improves-aspect)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-tasd)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-tasd?p=mvp-multi-view-prompting-improves-aspect)
 
+</div>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
@@ -18,6 +22,8 @@ Multi-view Prompting (MvP)
   <a href="https://arxiv.org/abs/2305.12627">Paper</a> •
   <a href="#%EF%B8%8F-citation">Citation</a>
 </p>
+
+
 
 Repo for ACL 2023 paper [MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627).
 
