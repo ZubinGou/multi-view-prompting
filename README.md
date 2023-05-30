@@ -8,7 +8,6 @@ Multi-view Prompting (MvP)
 ![](https://img.shields.io/badge/Task-ABSA-orange)
 ![](https://img.shields.io/badge/Model-Released-blue)
 ![](https://img.shields.io/github/license/ZubinGou/multi-view-prompting)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-acos)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-acos?p=mvp-multi-view-prompting-improves-aspect)
 <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mvp-multi-view-prompting-improves-aspect/aspect-based-sentiment-analysis-absa-on-asqp)](https://paperswithcode.com/sota/aspect-based-sentiment-analysis-absa-on-asqp?p=mvp-multi-view-prompting-improves-aspect)
