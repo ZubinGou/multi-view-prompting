@@ -52,8 +52,8 @@ python main.py \
     --agg_strategy vote \
     --eval_batch_size 64 \
     --constrained_decode \
+    --do_train \
     > $OUT_DIR/train.log
-    # --do_train \ # uncomment this line to train
     # --model_name_or_path "PATH TO THE CHECKPOINT" \ # configure the checkpoint path to eval
 
     # --load_path_cache \
