@@ -76,12 +76,12 @@ pip install -r requirements.txt
 
 ### 🤖 Trained Model
 
-We release the multi-task MvP model (one seed): `mvp-unified-base` [[Google Drive]](https://drive.google.com/file/d/1ID3HC4AMhp0yAWhVFQy6nRTeVpEOglYv/view)
+We release the multi-task MvP model (one seed): `mvp-unified-base` [[Google Drive]](https://drive.google.com/file/d/1FMTuS4DRquLjZ3xWHLDh25W31d4dgQph/view)
 
 You may download the model with [gdown](https://github.com/wkentaro/gdown) (`pip install gdown`):
 ```sh
 mkdir -p outputs/unified/top5_seed10 && cd outputs/unified/top5_seed10
-gdown 1ID3HC4AMhp0yAWhVFQy6nRTeVpEOglYv
+gdown 1FMTuS4DRquLjZ3xWHLDh25W31d4dgQph
 tar -xvf mvp_unified_model.tar.gz
 mv unified_model final
 ```
