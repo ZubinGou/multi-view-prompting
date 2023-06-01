@@ -1,6 +1,9 @@
-Python==3.7.13
-typing-extensions==4.4.0
-torch==1.11.0
+Python==3.8.16
+numpy==1.24.3
+openai==0.27.7
+pandas==1.5.3
+pytorch_lightning==1.9.5
+Requests==2.31.0
+torch==1.12.1+cu116
+tqdm==4.65.0
 transformers==4.14.1
-pytorch_lightning==1.8.3.post1
-numpy==1.21.2
