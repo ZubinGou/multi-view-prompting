@@ -1,4 +1,5 @@
 outputs
+*.gz
 logs/
 results/
 # data/unified*

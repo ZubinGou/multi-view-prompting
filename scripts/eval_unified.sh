@@ -11,7 +11,7 @@ K=5
 INFER_PATH=$K
 CTRL_TOKEN=post
 TASK=unified
-OUT_DIR="outputs/$TASK/top${K}_seed${SEED}"
+OUT_DIR="../outputs/$TASK/top${K}_seed${SEED}"
 
 mkdir -p $OUT_DIR
 
@@ -19,7 +19,7 @@ mkdir -p $OUT_DIR
 python main.py \
     --data_path "../data/" \
     --dataset seed$SEED \
-    --model_name_or_path "PATH TO THE CHECKPOINT" \
+    --model_name_or_path "t5-base" \
     --output_dir $OUT_DIR \
     --num_train_epochs 20 \
     --save_top_k 0 \
@@ -37,7 +37,7 @@ python main.py \
     --data_ratio 1.0 \
     --check_val_every_n_epoch 10  \
     --agg_strategy vote \
-    --eval_batch_size 64 \
+    --eval_batch_size 128 \
     --constrained_decode \
     --multi_task \
     > $OUT_DIR/eval.log

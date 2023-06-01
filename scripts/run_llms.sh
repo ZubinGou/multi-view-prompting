@@ -12,7 +12,7 @@ TASK=asqp
 K=1
 INFER_PATH=$K
 CTRL_TOKEN=none
-OUT_DIR="outputs/$TASK/${DATA}/top${K}_${CTRL_TOKEN}_data${DATA_RATIO}_seed${SEED}"
+OUT_DIR="../outputs/$TASK/${DATA}/top${K}_${CTRL_TOKEN}_data${DATA_RATIO}_seed${SEED}"
 
 mkdir -p $OUT_DIR
 

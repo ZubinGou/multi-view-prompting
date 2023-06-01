@@ -10,7 +10,7 @@ K=5
 INFER_PATH=$K
 CTRL_TOKEN=post
 TASK=unified
-OUT_DIR="outputs/$TASK/top${K}_seed${SEED}"
+OUT_DIR="../outputs/$TASK/top${K}_seed${SEED}"
 
 mkdir -p $OUT_DIR
 

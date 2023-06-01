@@ -24,7 +24,7 @@ for K in 5
 do
 INFER_PATH=$K
 CTRL_TOKEN=post
-OUT_DIR="outputs/$TASK/${DATA}/top${K}_${CTRL_TOKEN}_data${DATA_RATIO}"
+OUT_DIR="../outputs/$TASK/${DATA}/top${K}_${CTRL_TOKEN}_data${DATA_RATIO}"
 
 mkdir -p $OUT_DIR
 
