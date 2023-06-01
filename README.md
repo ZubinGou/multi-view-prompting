@@ -83,10 +83,10 @@ You may download the model with [gdown](https://github.com/wkentaro/gdown) (`pip
 gdown 1ID3HC4AMhp0yAWhVFQy6nRTeVpEOglYv
 tar -xvf mvp_unified_model.tar.gz
 ```
-configure the `model_name_or_path` in `scripts/run_main.sh` and run evaluation:
+configure the `model_name_or_path` in `scripts/eval_unified.sh` and run evaluation:
 
 ```sh
-bash scripts/run_main.sh
+bash scripts/eval_unified.sh
 ```
 
 then you will get following results:
