@@ -80,11 +80,14 @@ We release the multi-task MvP model (one seed): `mvp-unified-base` [[Google Driv
 
 You may download the model with [gdown](https://github.com/wkentaro/gdown) (`pip install gdown`):
 ```sh
-mkdir -p outputs/unified/top5_seed10 && cd outputs/unified/top5_seed10
+pip install gdown
+mkdir -p outputs && cd outputs
 gdown 1FMTuS4DRquLjZ3xWHLDh25W31d4dgQph
-tar -xvf mvp_unified_model.tar.gz
-mv unified_model final
+tar -xvf unified_model.tar.gz
+mv src/outputs/unified unified
+cd ..
 ```
+
 then run evaluation:
 
 ```sh
