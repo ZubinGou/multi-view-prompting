@@ -94,7 +94,7 @@ then run evaluation:
 bash scripts/eval_unified.sh
 ```
 
-then you will get following results:
+then you will get following results in `outputs/unified/top5_seed10/result.txt`:
 <small>
 ```
 aste:  laptop14:  precision: 67.64 recall: 64.14 F1 = 65.84
