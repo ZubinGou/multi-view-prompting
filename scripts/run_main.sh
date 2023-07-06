@@ -53,7 +53,8 @@ python main.py \
     --eval_batch_size 64 \
     --constrained_decode \
     --do_train \
-    > $OUT_DIR/train.log
+    | tee ${OUT_DIR}/train.log \
+    2> ${OUT_DIR}/train.err
     # --model_name_or_path "PATH TO THE CHECKPOINT" \ # configure the checkpoint path to eval
 
     # --load_path_cache \
