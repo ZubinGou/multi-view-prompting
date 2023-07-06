@@ -24,7 +24,7 @@ from transformers import get_linear_schedule_with_warmup
 
 from data_utils import ABSADataset, task_data_list, cal_entropy
 from const import *
-from data_utils import read_line_examples_from_file, force_tokens, cate_list, force_words
+from data_utils import read_line_examples_from_file
 from eval_utils import compute_scores, extract_spans_para
 
 # configure logging at the root level of Lightning
@@ -342,6 +342,8 @@ class T5FineTuner(pl.LightningModule):
             sp_tokenize_res = []
             for sp in ['great', 'ok', 'bad']:
                 sp_tokenize_res.extend(self.tokenizer(sp, return_tensors='pt')['input_ids'].tolist()[0])
+            for task in force_words.keys():
+                dic['sentiment_tokens'][task] = sp_tokenize_res
             dic['sentiment_tokens'] = sp_tokenize_res
             special_tokens_tokenize_res = []
             for w in ['[O','[A','[S','[C','[SS']:
