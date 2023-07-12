@@ -525,9 +525,15 @@ class ABSADataset(Dataset):
                 padding="max_length",
                 truncation=True,
                 return_tensors="pt")
+            
+            # for ACOS Restaurant and Laptop dataset
+            # the max target length is much longer than 200
+            # we need to set a larger max length for inference
+            target_max_length = 1024 if self.data_type == "test" else self.max_len
+
             tokenized_target = self.tokenizer.batch_encode_plus(
                 [target],
-                max_length=self.max_len,
+                max_length=target_max_length,
                 padding="max_length",
                 truncation=True,
                 return_tensors="pt")
