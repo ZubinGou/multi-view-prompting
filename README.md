@@ -146,9 +146,16 @@ If you find this repository helpful, please consider citing our paper:
 
 ```
 @inproceedings{gou-etal-2023-mvp,
-	title = {MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction},
-	author = {Gou, Zhibin and Guo, Qingyan and Yang, Yujiu},
-	booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics},
-	year = {2023},
+    title = "{M}v{P}: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction",
+    author = "Gou, Zhibin  and
+      Guo, Qingyan  and
+      Yang, Yujiu",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.240",
+    pages = "4380--4397",
 }
 ```
